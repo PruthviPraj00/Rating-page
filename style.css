@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
+
+}
+html{
+   font-size: 15px;
+}
+
+body{
+    background-color:  hsl(216, 12%, 8%);
+    color:white;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+ }
+
+.card{
+
+    background-image:-webkit-gradient(linear,left top, left bottom,from(hsl(213, 19%, 19%)),to(hsl(216, 12%, 12%)));
+
+    background-image:-o-linear-gradient(top,hsl(213, 19%, 19%),hsl(216, 12%, 12%));
+
+    background-image:linear-gradient(to bottom,hsl(213, 19%, 19%),hsl(216, 12%, 12%));
+    /* background-color:  hsl(213, 19%, 18%); */
+    max-width:  28em;
+    max-height: 28em;
+    border-radius: 40px;
+    padding: 38px;
+    
+} 
+
+ .star{
+    background-color: hsl(216, 12%, 54%,0.2);
+    width: 3em ;
+    height: 3em;
+    padding: 1.08em;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+ }
+
+   .star img{
+    width:1em;
+  }
+ 
+ 
+  .heading{
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-top: 1.3em;
+    font-size: 2.375em;
+
+
+ }
+ .para{
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-weight: 500;
+    margin-top: 1.2em;
+    font-size: 1em;
+    line-height: 1.6em;
+     
+ }
+
+
+ .btn{
+    font-family: 'Overpass', sans-serif;
+    color:  hsl(216, 12%, 54%);
+    font-weight: 500;
+    background-color: hsl(216, 12%, 54%,0.2);
+    width: 3em ;
+    height: 3em;
+    padding-top: .2em;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1em;
+    list-style-type: none;
+    border: none;
+    
+}
+ .ratingbtn ul {
+   list-style-type: none;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+   margin-top: 1.2em;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+ }
+ 
+
+ #cta{
+   border: none;
+   background-color: hsl(25, 97%, 53%);
+   font-weight: 500;
+   color:white;
+   width: 18.5em ;
+   height: 2.3em;
+   border-radius:50px;
+    margin-top: 1.2em;
+    padding-top: .2em;
+   text-transform: uppercase;
+   font-family: 'Overpass', sans-serif;
+   letter-spacing: .2em;
+   font-size: 1.2em;
+   
+ }
+
+
+ #cta:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+ }
+
+ .btn:hover{
+    background-color:  hsl(25, 97%, 53%);
+    color:white;
+    cursor: pointer;
+  }
+ .btn:visited{
+    background-color: hsl(217, 12%, 63%);
+    color:white;
+    
+ }
+
+.card2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+.boxai img{
+  
+   width:11rem; 
+}
+.h6{
+     
+    font-family: 'Overpass', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    background-color:hsl(216, 12%, 54%,0.2);
+    
+    color: hsl(25, 97%, 53%);
+    padding: .4em 1.2em 0.3em 1.2em  ;
+    margin-top: 2em ;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.h3{
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: 1.5em ;
+
+
+}
+.par{ 
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-weight: 500;
+    margin-top: 1em;
+    font-size:1rem;
+    line-height: 1.6em;
+    text-align: center;
+    padding: 0 .1em 0 .1em;
+
+     
+}
+.hide{
+   display: none;
+}
+
+@media only screen and (max-width: 425px) {
+   .card {
+      width:24em;
+      height:25em;
+      padding: 33px;
+    }
+  #cta{
+   width: 16.5em;
+  }
+
+   
+    .h6{
+      margin-top: 1.5em;
+      
+    }
+    .h3{
+      margin-top: 1.2em;
+      font-size: 1.7em;
+
+    }
+    .par{
+      margin-top: 1.2em;
+      font-size: .9em;
+
+    }
+    
+ 
+    .heading{
+      
+      margin-top: 1em;
+      font-size: 2.1em;
+  
+  
+   }
+   .para{
+      
+      margin-top: 1em;
+      font-size: .9em;
+      line-height: 1.6em;
+      padding-right: .3em;
+   }
+  
+  
+   .btn{
+       width: 2.6em ;
+      height: 2.6em;
+     
+     
+   }
+  
+   .cta{
+    
+     
+     width: 16.5em ;
+     height: 2.6em;
+   
+    }
+  
+}
